@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: 'K2D';
+}
+
+.container {
+  border-radius: 50px;
+  border: 10px solid #828282;
+  width: 600px;
+  height: 700px;
+  background: #222;
+  margin: auto;
+}
+
+.container .img {
+  background-image: url(./assets/Mask\ group.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 472px;
+  height: 472px;
+  margin: 104px 54px;
+}
+
+.container .time {
+  color: #FFF;
+  font: 400 30px 'K2D';
+}
