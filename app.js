@@ -1,13 +1,9 @@
 const dynamicTime = document.querySelector('.time');
-function doTime(dynamicTime) {
-    const t = new Date();
-    dynamicTime.innerHTML = t.getHours() + ':' + t.getMinutes() + ':' + t.getSeconds();
-}
-setInterval(doTime, 100, dynamicTime);
-
 const dynamicYear = document.querySelector('.date');
-function doDate(dynamicYear) {
+
+function doDate(dynamicTime, dynamicYear) {
     const d = new Date();
+    dynamicTime.innerHTML = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
     dynamicYear.innerHTML = 'since.' + d.getFullYear();
 }
-setInterval(doDate, 100, dynamicYear)
+setInterval(doDate, 100, dynamicTime, dynamicYear)
