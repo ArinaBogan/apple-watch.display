@@ -12,18 +12,38 @@
   height: 700px;
   background: #222;
   margin: auto;
+  margin-top: 50px;
 }
 
 .container .img {
   background-image: url(./assets/Mask\ group.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 472px;
-  height: 472px;
-  margin: 104px 54px;
+  width: 450px;
+  height: 450px;
+  margin: auto;
 }
 
 .container .time {
   color: #FFF;
   font: 400 30px 'K2D';
+  width: 103px;
+  height: 39px;
+  padding: 56px 56px 25px 440px;
+}
+
+.container .date {
+  color: #FFF;
+  font: 400 20px 'K2D';
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.container .line {
+  width: 230px;
+  height: 10px;
+  border-radius: 1px;
+  background: #FFFFFF;
+  margin-top: 15px;
+  margin: auto;
 }
